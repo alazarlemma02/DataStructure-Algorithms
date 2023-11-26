@@ -6,3 +6,7 @@ Markup: * lab-session-1
         *lab-session-2
             * The Big-O
             * Excersises on Big-O
+ Markup : * Bullet list
+              * Nested bullet
+                  * Sub-nested bullet etc
+          * Bullet list item 2
