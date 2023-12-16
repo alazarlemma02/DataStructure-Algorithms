@@ -83,7 +83,7 @@ class Main {
     // log2(8) = 3
     // 2 * 2 * 2 = 8
 
-    // Q. LogArtihmic time complexity
+    // Q. LogArthmic time complexity
     public static String logArthmicTime(int n) {
         int totalIteration = 0;
         int y = n;
