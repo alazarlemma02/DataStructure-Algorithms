@@ -5,4 +5,7 @@
     *   Complexity analysis of algorithms Basics
 *   lab-session-2
     *   The Big-O
-    *   Excersises on Big-O
+    *   Exercises on Big-O
+*   lab-session-3
+    *   Searching
+    *   Hands-on Exercises on the two types of searching algorithms
