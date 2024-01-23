@@ -12,3 +12,6 @@
     *   Branch => searching
     *   Searching
     *   Hands-on Exercises on the two types of searching algorithms
+*   lab-session-4
+    *   Branch => Stack
+    *   Algebraic Expression Evaluation
