@@ -1,0 +1,33 @@
+ Problem: Print Job Queue
+
+ Instructions
+
+ 1. PrintJob
+
+    Create a simple class named `PrintJob` with the following attributes
+        `jobId` (an integer representing the job ID
+        `user` (a string representing the user submitting the job
+        `numPages` (an integer representing the number of pages in the print job)
+
+ 2. StaticQueue
+
+    - Implement a simple static queue class named `StaticQueue` for managing the
+    print job queue
+    - Use an array to store print jobs
+    - Initialize the front and rear pointers to -1
+
+    Implement methods
+
+    - `enqueue(PrintJob job)` to add a job to the end of the queue
+    - `dequeue()` to remove and process the job at the front of the queue.
+    - `isEmpty()` to check if the queue is empty
+    - `displayStatus()` to display the current state of the queue.
+
+ 3. Main Class
+
+    - Create a main class (`PrinterQueueExample
+    - Create an instance of the `StaticQueue` class
+    - Enqueue a few print jobs, dequeue one job, and enqueue another job to
+      demonstrate the basic functionality
+    - Display the status of the print job queue after each operation.
+
