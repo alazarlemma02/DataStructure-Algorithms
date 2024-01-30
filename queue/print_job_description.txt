@@ -31,3 +31,50 @@
       demonstrate the basic functionality
     - Display the status of the print job queue after each operation.
 
+
+//////////////////////////////
+
+Here is an example input and output
+
+Input:
+        PrintJobQueue queue = new PrintJobQueue();
+
+        PrintJob job1 = new PrintJob(1, "John", 5);
+        PrintJob job2 = new PrintJob(2, "Jane", 3);
+        PrintJob job3 = new PrintJob(3, "Jack", 10);
+        PrintJob job4 = new PrintJob(4, "Jill", 2);
+        PrintJob job5 = new PrintJob(5, "James", 1);
+
+        queue.enQueue(job1);
+        queue.enQueue(job2);
+        queue.enQueue(job3);
+        queue.enQueue(job4);
+        queue.enQueue(job5);
+
+        queue.deQueue();
+        System.out.println("First dequeue done.");
+        queue.deQueue();
+        System.out.println("Second dequeue done.");
+
+        queue.displayStatus();
+
+Output:
+
+      Job added to the queue. Job ID: 1
+      Job added to the queue. Job ID: 2
+      Job added to the queue. Job ID: 3
+      Job added to the queue. Job ID: 4
+      Job added to the queue. Job ID: 5
+      
+      Job processed. Job ID: 1
+      First dequeue done.
+      
+      Job processed. Job ID: 2
+      Second dequeue done.
+      
+      
+      Job Queue:
+      
+      Job ID: 3, User: Jack, Pages: 10
+      Job ID: 4, User: Jill, Pages: 2
+      Job ID: 5, User: James, Pages: 1
